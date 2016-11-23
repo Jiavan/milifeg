@@ -1,0 +1,21 @@
+{
+  "name": "milifeg",
+  "version": "0.1.0",
+  "description": "Milife generator!",
+  "main": "/bin/milifeg.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "milife",
+    "generator"
+  ],
+  "author": "Jiavan, jiavan.com@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  }
+}
