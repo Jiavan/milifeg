@@ -4,7 +4,8 @@
   "description": "Milife generator!",
   "main": "/bin/milifeg.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "precommit": "ls -a"
   },
   "keywords": [
     "milife",
@@ -17,5 +18,8 @@
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "husky": "^0.11.9"
   }
 }
