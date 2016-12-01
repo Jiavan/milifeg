@@ -12,7 +12,7 @@ app
   .alias('l')
   .description('List all templates')
   .action(() => {
-     require('../command/list')();
+    require('../command/list')();
   });
 
 app
