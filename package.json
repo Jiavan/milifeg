@@ -5,7 +5,7 @@
   "main": "/bin/milifeg.js",
   "scripts": {
     "test": "npm run test",
-    "precommit": "ls -a"
+    "precommit": "eslint ./**.js"
   },
   "keywords": [
     "milife",
